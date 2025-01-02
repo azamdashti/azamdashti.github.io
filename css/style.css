@@ -1,0 +1,11 @@
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+nav ul {
+  list-style: none;
+  line-height: 30px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
