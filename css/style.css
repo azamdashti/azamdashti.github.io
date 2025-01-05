@@ -1,3 +1,9 @@
+body {
+  margin: 0px;
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
 nav ul li a {
   color: #fff;
   text-decoration: none;
@@ -8,4 +14,55 @@ nav ul {
   text-align: center;
   margin: 0px;
   padding: 0px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  transform: rotate(10deg);
+  width: 400px;
+  height: 120%;
+  display: flex;
+  background-color: #008080;
+  position: fixed;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-end;
+  row-gap: 50px;
+  margin: -75px 0 0 -75px;
+  box-shadow: 16px 10px 0px #00808036;
+}
+.sidebar > div {
+  transform: rotate(-10deg);
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  margin-right: 50px;
+}
+.sidebar > div img {
+  width: 200px;
+  border-radius: 50%;
+  border: solid 10px rgba(255, 255, 255, 0.2);
+}
+.content {
+  margin-left: 450px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+  padding-right: 100px;
+}
+.content > h1 {
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
 }
