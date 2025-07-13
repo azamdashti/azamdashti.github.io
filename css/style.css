@@ -88,3 +88,25 @@ main {
   background-color: rgb(255 255 255 / 12%);
   padding: 5px;
 }
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.container > .item {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #ddd;
+  border-radius: 20px;
+  padding: 10px;
+  row-gap: 10px;
+}
+.container > .item > img {
+  width: 100px;
+}
+
+.container > .item > a {
+  text-decoration: none;
+  color: #0c2d57;
+}
