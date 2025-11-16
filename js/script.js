@@ -1,12 +1,14 @@
+let projects=[]
+const container = document.getElementById("projectLists");
 document.addEventListener("DOMContentLoaded", async () => {
 
   try {
 
     const response = await fetch("../json/projects.json");
 
-    const projects = await response.json();
+     projects = await response.json();
  
-    const container = document.getElementById("projectLists");
+    
 
     container.style.display = "flex";
 
@@ -47,9 +49,20 @@ document.addEventListener("DOMContentLoaded", async () => {
       container.appendChild(card);
 
     });
-    container.addEventListener("click",function(e){
-      if(e.target.dataset.id>0) {
-        const project=projects.find(p=>p.id==e.target.dataset.id)
+    
+
+  } catch (err) {
+
+    console.error("خطا در خواندن یا نمایش JSON:", err);
+
+  }
+
+});
+container.addEventListener("click",function(e){
+  const id= Number(e.target.closest('[data-id]').dataset.id)
+  console.log(id)
+      if(id>0) {
+        const project=projects.find(p=>p.id==id)
       container.innerHTML=`
       <h2> ${project.title} </h2>
       <div style="width:100%">
@@ -68,13 +81,4 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       }
     })
-
-  } catch (err) {
-
-    console.error("خطا در خواندن یا نمایش JSON:", err);
-
-  }
-
-});
-
  
