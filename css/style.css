@@ -110,3 +110,13 @@ main {
   text-decoration: none;
   color: #0c2d57;
 }
+.back_button {
+  text-decoration: none;
+  background-color: #0c2d57;
+  padding: 7px 15px;
+  color: white;
+  border-radius: 7px;
+}
+.project_content {
+  width: 100%;
+}
