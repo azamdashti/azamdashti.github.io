@@ -4,14 +4,16 @@
         "title" : "21st Century Skills & Global Citizenship Education",
         "content" : "<p> How can we best empower children to meet the challenges of the 21st century? Global Citizenship Education Development (GCED) and the SustainableDevelopment Goals (SDGs) have become central themes in ethical research with refugee children, focusing onpromoting their agency and empowerment. This feeds into and drives my current PhD research, a continuation ofmy master’s work. Through participatory narrative projects, I engage refugee children as co-researchers inworkshops using tools like iPads for cellphilm, photovoice, artworks, and digital storytelling. This approach aims toempower them as future change-makers by enhancing the skills essential for 21st-century learning, such ascommunication, collaboration, critical thinking, and creativity. These children, having gained refugee experience, willbecome agents of change, promoting sustainable development goals by fostering adaptability, awareness andcompetency. </p>", 
         "image" : "pr1.png",
-        "video" : "Graduation presentation- Dashti Khavidaki_Azam.mp4"
+        "video" : "Graduation presentation- Dashti Khavidaki_Azam.mp4",
+        "video_type" : "local"
     }, 
     { 
         "id" : 2,
-        "title" : "21st Century Skills & Global Citizenship Education",
-        "content" : "<p> How can we best empower children to meet the challenges of the 21st century? Global Citizenship Education Development (GCED) and the SustainableDevelopment Goals (SDGs) have become central themes in ethical research with refugee children, focusing onpromoting their agency and empowerment. This feeds into and drives my current PhD research, a continuation ofmy master’s work. Through participatory narrative projects, I engage refugee children as co-researchers inworkshops using tools like iPads for cellphilm, photovoice, artworks, and digital storytelling. This approach aims toempower them as future change-makers by enhancing the skills essential for 21st-century learning, such ascommunication, collaboration, critical thinking, and creativity. These children, having gained refugee experience, willbecome agents of change, promoting sustainable development goals by fostering adaptability, awareness andcompetency. </p>", 
-        "image" : "pr1.png",
-        "video" : "Graduation presentation- Dashti Khavidaki_Azam.mp4"
+        "title" : "Let's Get Cellphilming",
+        "content" : "<p> “Let’s Get Cellphilming: Reflections on Cellphilming with Children” is a short documentary that explores why cellphilming practices matter, especially in a world that urgently needs fresh, authentic narratives. It shows how a smartphone becomes an open invitation for those routinely ignored—children, teens, elders, everyday bystanders—to speak their truth. Shot entirely on an iPhone Let’s Get Cellphilming blends footage of children making their own films with reflections from researchers, filmmakers, and community scholars. This meta-story reveals how a simple cellphone can merge digital literacy with equity, diversity, inclusion, and accessibility to spur real social change. Drawn from hours of dialogue, the film urges us to pause, hear the quiet stories we overlook, and amplify them—so grab your phone, hit record, and help break the silence. The film builds on more than a decade of work with cellphilming at McGill’s Participatory Cultures Lab (PCL), led by Distinguished James McGill Professor Claudia Mitchell. Home of the McGill International Cellphilm Festival dating back to 2013, the PCL brings together researchers, doctoral and masters students, undergraduate interns and NGOs collaborate to advance visual and other participatory methods—digital storytelling, photovoice, cellphilming, collage, and related arts-based techniques—for collecting, analyzing, and mobilizing research data. The lab addresses social-justice concerns—including youth sexuality, HIV/AIDS, gender-based violence, food security, poverty, and children’s ethics and agency—championing young people’s right to express themselves on matters that are of their concern. </p>", 
+        "image" : "pr2.png",
+        "video" : "https://www.youtube.com/embed/_4qs2TExsKw?si=emG11CfIwtKqF9dY",
+        "video_type" : "YouTube"
     }
 
 ]
