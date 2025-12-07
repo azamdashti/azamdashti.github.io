@@ -68,6 +68,7 @@ main {
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
+  width: 100%;
 }
 .content p {
   text-align: justify;

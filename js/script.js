@@ -35,9 +35,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       img.style.backgroundImage = "url('../img/projects/"+project.image+"')";
 
-      img.style.height = "200px";
+      img.style.aspectRatio = "3/2";
 
-      img.style.width = "300px";
+      img.style.width = "100%";
       img.style.backgroundSize = "cover"
       img.style.backgroundRepeat = "no-repeat"
       img.style.backgroundPosition = "center"
