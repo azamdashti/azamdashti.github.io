@@ -29,14 +29,18 @@ document.addEventListener("DOMContentLoaded", async () => {
       card.style.boxSizing = "border-box";
 
       card.style.textAlign = "center";
+      card.style.cursor="pointer"
  
-      const img = document.createElement("img");
+      const img = document.createElement("div");
 
-      img.src = "../img/projects/"+project.image;
+      img.style.backgroundImage = "url('../img/projects/"+project.image+"')";
 
-      img.alt = project.title;
+      img.style.height = "200px";
 
-      img.style.width = "100%";
+      img.style.width = "300px";
+      img.style.backgroundSize = "cover"
+      img.style.backgroundRepeat = "no-repeat"
+      img.style.backgroundPosition = "center"
  
       const title = document.createElement("h3");
 
@@ -59,20 +63,26 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 });
 container.addEventListener("click",function(e){
+  let video=``
   const id= Number(e.target.closest('[data-id]').dataset.id)
   console.log(id)
       if(id>0) {
         const project=projects.find(p=>p.id==id)
-      container.innerHTML=`
-      <h2> ${project.title} </h2>
-      <div style="width:100%">
-       
-      <video style="width:100%" controls>
-      
+
+        if(project.video_type=="YouTube") {
+          video=`<div style="text-align:center"> <iframe width="700" height="390" src="${project.video}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </div>` 
+        } else{
+          video=`<video style="width:100%" controls>
       <source src="../video/${project.video}" type="video/mp4">
-       
-      
-      </video>
+      </video>`
+        }
+        container.innerHTML=`
+      <h2> ${project.title} </h2>
+      <div  class="project_content">
+       <p> <a href="projects.html" class="back_button"> back 
+      </a>
+       </p>
+      ${video}
       </div>
       <div> 
       ${project.content}
