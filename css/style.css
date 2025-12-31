@@ -126,3 +126,39 @@ main {
   top: 10px;
   right: 10px;
 }
+<style>
+  #google_translate_element {
+    transform: scale(0.9);
+    transform-origin: right top;
+  }
+
+  .goog-te-menu-value span:nth-child(1),
+  .goog-te-menu-value span:nth-child(2) {
+    display: none !important;
+  }
+
+  .goog-te-gadget-simple {
+    padding: 6px !important;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 999px !important;
+    background: #ffffff;
+    border: 1px solid #ddd !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .goog-te-gadget-simple:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    transform: scale(1.05);
+  }
+
+  .goog-te-menu-value img {
+    width: 18px !important;
+    height: 18px !important;
+  }
+</style>
