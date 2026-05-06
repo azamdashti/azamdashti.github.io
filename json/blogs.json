@@ -6,7 +6,14 @@
         "image" : "blog08.jpg",
         "video" : null,
         "video_type" : null
-    }, 
+    }, {
+    "id": 5,
+    "title": "Your Blog Title",
+    "content": "<p>Your blog text here.</p>",
+    "image": "blog010.jpg",
+    "video": "https://www.youtube.com/embed/Y40H9268plA?start=9",
+    "video_type": "YouTube"
+  },
     { 
         "id" : 2,
         "title" : "Clichéd Description versus Lively Details",
@@ -24,6 +31,8 @@
         "video_type" : "YouTube"
 
     }
-
-
+        
 ]
+
+    
+
