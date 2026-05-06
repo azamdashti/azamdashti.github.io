@@ -8,7 +8,7 @@
         "video_type" : null
     }, {
     "id": 5,
-    "title": "Your Blog Title",
+    "title": "Cruel Companion",
     "content": "<p>Your blog text here.</p>",
     "image": "blog010.jpg",
     "video": "https://www.youtube.com/embed/Y40H9268plA?start=9",
@@ -35,4 +35,3 @@
 ]
 
     
-
